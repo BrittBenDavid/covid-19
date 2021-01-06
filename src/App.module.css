@@ -1,0 +1,29 @@
+/* CSS */
+
+body { 
+    background-color: aliceblue;
+}
+
+.container {
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+    flex-direction:column; /*מסדר את כל הקומפוננטות*/
+}
+
+.image {
+    width: 370px;
+    margin-top: 50px;
+  }
+  
+
+h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cadetblue;
+}
+
+h5{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(69, 117, 119);
+}
