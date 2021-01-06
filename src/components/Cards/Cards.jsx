@@ -30,7 +30,7 @@ const Cards = ({data: {confirmed, recovered, deaths, lastUpdate}}) => {
                     <CardContent>
                         <Typography color="textSecondary" gutterBottom>recovered</Typography>
                         <Typography variant="h5">
-                            <CountUp start={0} end={confirmed.value} duration={2.5} separator=","/>
+                            <CountUp start={0} end={recovered.value} duration={2.5} separator=","/>
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
                         <Typography variant="body2">
@@ -42,7 +42,7 @@ const Cards = ({data: {confirmed, recovered, deaths, lastUpdate}}) => {
                     <CardContent>
                         <Typography color="textSecondary" gutterBottom>deaths</Typography>
                         <Typography variant="h5">
-                            <CountUp start={0} end={confirmed.value} duration={2.5} separator=","/>
+                            <CountUp start={0} end={deaths.value} duration={2.5} separator=","/>
                         </Typography>
                         <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
                         <Typography variant="body2">
