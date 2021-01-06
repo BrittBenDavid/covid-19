@@ -38,7 +38,7 @@ class App extends Component{
         return (
             <div className={styles.container}>
                 <img className={styles.image} src={coronaImage} alt='COVID-19'/>
-                <h4>Covid-19 Status in the world</h4>
+                <h4>Status in the world</h4>
                 <h5>Britt Ben-David |  CoronaProject</h5>
                 <Cards data={data} />
                 <CountryPicer handleCountryChange={this.handleCountryChange}/>{/*4*/}
