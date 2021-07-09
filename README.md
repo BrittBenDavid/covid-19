@@ -6,7 +6,6 @@ The project is written in React and takes the data from an external API called: 
 
 All that is left is to run "npm start" and enjoy it.
 
-**A image of the page is attached:
-**
+A image of the page is attached:
 
 ![covid-19](https://user-images.githubusercontent.com/75638241/125046880-161b9a00-e0a7-11eb-9930-aaa10d596e0a.png)
